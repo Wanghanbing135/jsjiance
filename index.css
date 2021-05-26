@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 640px;
+  height: 3710px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+.box .header {
+  width: 640px;
+  height: 3710px;
+  background-color: #011957;
+}
+.box .header .box1 .list {
+  width: 640px;
+  height: 320px;
+  list-style: none;
+  font-size: 20px;
+}
+.box .header .box1 .list li {
+  width: 140px;
+  height: 40px;
+  float: left;
+  margin: 20px 0 0 16px;
+  border-radius: 15px;
+  box-shadow: 0 5px 0 #3e13a0;
+  background-color: #6745B5;
+}
+.box .header .box1 .list li span {
+  width: 20px;
+  height: 20px;
+  float: right;
+  text-align: center;
+  line-height: 20px;
+  margin: 10px 10px 0 0;
+  color: white;
+  border-radius: 5px;
+  background-color: #011957;
+}
+.box .header .box1 .list li a {
+  text-decoration: none;
+  line-height: 40px;
+  margin-left: 10px;
+  color: white;
+}
+.box .header .box2 .list1 {
+  width: 640px;
+  height: 800px;
+  list-style: none;
+}
+.box .header .box2 .list1 li {
+  float: left;
+  width: 290px;
+  height: 374px;
+  border-radius: 7px;
+  margin: 10px 0 0 20px;
+  background-color: white;
+}
+.box .header .box2 .list1 li img {
+  width: 290px;
+  border-radius: 7px;
+}
+.box .header .box2 .list1 li h4 {
+  margin-left: 10px;
+  font-weight: 400;
+}
+.box .header .box2 .list1 li p {
+  float: left;
+  margin: 5px 0 0 10px;
+  width: 85px;
+  height: 53px;
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+}
+.box .header .box2 .list1 li span {
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.box .header .box2 .list1 li .buy {
+  width: 50px;
+  height: 50px;
+  float: right;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  margin: 5px 10px 0 0 ;
+  border-radius: 7px;
+  background-color: #FD384C;
+}
